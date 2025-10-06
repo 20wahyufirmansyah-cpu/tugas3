@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding doesn't increase total width */
+    font-size: 16px;
+}
+
+select {
+    appearance: none; /* Remove default arrow on select */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23000%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%00-13.2-6.2H18.6c-5.9%200-11.2%203.4-13.2%208.4-1.9%205-1.9%2010.4%200%2015.4l130.6%20130.6c3.2%203.2%207.6%204.8%2012%204.8s8.8-1.6%2012-4.8L287%20100.4c3.2-3.2%204.8-7.6%204.8-12.4.1-4.9-1.5-9.2-4.7-12.3z%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 12px;
+    padding-right: 30px; /* Make space for the custom arrow */
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+#registrationResult {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #cce5ff;
+    background-color: #e0f2ff;
+    border-radius: 8px;
+}
+
+#registrationResult h3 {
+    color: #0056b3;
+    margin-top: 0;
+}
+
+#registrationResult p {
+    margin: 5px 0;
+    color: #333;
+}
+
+#registrationResult p strong {
+    color: #003e80;
+}
